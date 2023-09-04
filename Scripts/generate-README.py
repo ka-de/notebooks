@@ -7,6 +7,9 @@ sys.stdout.reconfigure(encoding='utf-8')
 # Define the README file path
 readme_file = "README.md"
 
+# Define the GitHub repository base URL
+github_base_url = "https://github.com/Kadelam/notebooks/blob/main/"
+
 # Define the table header
 table_header = """# 🪐 Jupyter Notebooks 🪐
 
@@ -50,13 +53,15 @@ for root, dirs, files in os.walk("."):
             if title:
                 relative_path = os.path.relpath(notebook_path, start=".")
                 subdirectory = os.path.dirname(relative_path)
-                # Get the subdirectory containing the notebook
-                #subdirectory = os.path.basename(os.path.dirname(notebook_path))
+                # Normalize the notebook path by replacing backslashes with forward slashes
+                notebook_path = notebook_path.replace("\\", "/")
                 # Remove leading "./" from the notebook path
-                notebook_path = notebook_path[2:]
+                notebook_path = notebook_path.lstrip("./")
+                # Create the URL for the notebook
+                notebook_url = f"[{notebook_path}]({github_base_url}{notebook_path.replace(' ', '%20')})"
                 # Create the "What does it do" line
                 what_does_it_do = f"**{subdirectory}** - {title}"
-                line = f"{notebook_path} | {what_does_it_do}"
+                line = f"{notebook_url} | {what_does_it_do}"
                 print(f"Adding: {line}")
                 with open(readme_file, "a", encoding="utf-8") as readme:
                     readme.write(line + "\n")
