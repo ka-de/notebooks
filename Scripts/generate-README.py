@@ -12,6 +12,9 @@ table_header = """# 🪐 Jupyter Notebooks 🪐
 
 I'm attempting to rectify my failing brain's fatal mistake of learning Python too late in life. Feel free to use this repository to study the behavior of chimpanzees.
 
+![Jupiter, in all its glory.](https://github.com/Kadelam/notebooks/raw/main/Data/jupiter.jpg)
+Credit: NASA, ESA, CSA, Jupiter ERS Team; image processing by Ricardo Hueso (UPV/EHU) and Judy Schmidt.
+
 Name | What does it do?
 :---|:---
 """
