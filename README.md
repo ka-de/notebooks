@@ -18,6 +18,7 @@ Name | What does it do?
 [PowerShell/Taking Ownership Over the Filesystem.ipynb](https://github.com/Kadelam/notebooks/blob/main/PowerShell/Taking%20Ownership%20Over%20the%20Filesystem.ipynb) | **PowerShell** - Taking Ownership Over the Filesystem
 [Python/Animation.ipynb](https://github.com/Kadelam/notebooks/blob/main/Python/Animation.ipynb) | **Python** - Animation
 [Python/Check For Hardcoded Localhost.ipynb](https://github.com/Kadelam/notebooks/blob/main/Python/Check%20For%20Hardcoded%20Localhost.ipynb) | **Python** - Check for Hardcoded Localhost in Source Code
+[Python/DOI.ipynb](https://github.com/Kadelam/notebooks/blob/main/Python/DOI.ipynb) | **Python** - DOI
 [Python/Find the Most Frequently Occurring Element in a List.ipynb](https://github.com/Kadelam/notebooks/blob/main/Python/Find%20the%20Most%20Frequently%20Occurring%20Element%20in%20a%20List.ipynb) | **Python** - Find the Most Frequently Occurring Element in a List
 [Python/Returning Lengths From Objects.ipynb](https://github.com/Kadelam/notebooks/blob/main/Python/Returning%20Lengths%20From%20Objects.ipynb) | **Python** - Returning Lengths From Objects
 [Python/SciPy.ipynb](https://github.com/Kadelam/notebooks/blob/main/Python/SciPy.ipynb) | **Python** - SciPy
