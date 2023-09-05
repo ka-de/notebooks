@@ -21,5 +21,6 @@ Name | What does it do?
 [Python/Find the Most Frequently Occurring Element in a List.ipynb](https://github.com/Kadelam/notebooks/blob/main/Python/Find%20the%20Most%20Frequently%20Occurring%20Element%20in%20a%20List.ipynb) | **Python** - Find the Most Frequently Occurring Element in a List
 [Python/Returning Lengths From Objects.ipynb](https://github.com/Kadelam/notebooks/blob/main/Python/Returning%20Lengths%20From%20Objects.ipynb) | **Python** - Returning Lengths From Objects
 [Python/SciPy.ipynb](https://github.com/Kadelam/notebooks/blob/main/Python/SciPy.ipynb) | **Python** - SciPy
+[Python/Soundcloud.ipynb](https://github.com/Kadelam/notebooks/blob/main/Python/Soundcloud.ipynb) | **Python** - SoundCloud
 [Python/Uninstall Hugo.ipynb](https://github.com/Kadelam/notebooks/blob/main/Python/Uninstall%20Hugo.ipynb) | **Python** - A Simple Static Site Generator
 [Python/Sandbox/Capitalize Titles Sandbox.ipynb](https://github.com/Kadelam/notebooks/blob/main/Python/Sandbox/Capitalize%20Titles%20Sandbox.ipynb) | **Python\Sandbox** - Check for Proper US English Title
