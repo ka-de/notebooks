@@ -21,6 +21,7 @@ Name | What does it do?
 [Python/Check For Hardcoded Localhost.ipynb](https://github.com/Kadelam/notebooks/blob/main/Python/Check%20For%20Hardcoded%20Localhost.ipynb) | **Python** - Check for Hardcoded Localhost in Source Code
 [Python/DOI.ipynb](https://github.com/Kadelam/notebooks/blob/main/Python/DOI.ipynb) | **Python** - DOI
 [Python/Find the Most Frequently Occurring Element in a List.ipynb](https://github.com/Kadelam/notebooks/blob/main/Python/Find%20the%20Most%20Frequently%20Occurring%20Element%20in%20a%20List.ipynb) | **Python** - Find the Most Frequently Occurring Element in a List
+[Python/Password Generation.ipynb](https://github.com/Kadelam/notebooks/blob/main/Python/Password%20Generation.ipynb) | **Python** - Random Password Generators 🔑
 [Python/Returning Lengths From Objects.ipynb](https://github.com/Kadelam/notebooks/blob/main/Python/Returning%20Lengths%20From%20Objects.ipynb) | **Python** - Returning Lengths From Objects
 [Python/SciPy.ipynb](https://github.com/Kadelam/notebooks/blob/main/Python/SciPy.ipynb) | **Python** - SciPy
 [Python/Soundcloud.ipynb](https://github.com/Kadelam/notebooks/blob/main/Python/Soundcloud.ipynb) | **Python** - SoundCloud
