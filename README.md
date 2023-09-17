@@ -35,4 +35,4 @@ Name | What does it do?
 [Python/Basics/Simple To-Do Application.ipynb](https://github.com/ka-de/notebooks/blob/main/Python/Basics/Simple%20To-Do%20Application.ipynb) | **Python\Basics** - Simple To-Do Application 📖⏰
 [Python/Sandbox/Capitalize Titles Sandbox.ipynb](https://github.com/ka-de/notebooks/blob/main/Python/Sandbox/Capitalize%20Titles%20Sandbox.ipynb) | **Python\Sandbox** - Check for Proper US English Title
 [WebDev/TypeScript vs. JSDoc JavaScript for static type checking.ipynb](https://github.com/ka-de/notebooks/blob/main/WebDev/TypeScript%20vs.%20JSDoc%20JavaScript%20for%20static%20type%20checking.ipynb) | **WebDev** - TypeScript vs. JSDoc JavaScript for static type checking
-[🦎 School of Mathematics/Levenshtein distance.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20Mathematics/Levenshtein%20distance.ipynb) | **🦎 School of Mathematics** - Levenshtein distance
+[🦎 School of Mathematics/Levenshtein distance.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20Mathematics/Levenshtein%20distance.ipynb) | **🦎 School of Mathematics** - Levenshtein distance and FuzzyWuzzy
