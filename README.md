@@ -9,6 +9,7 @@ Name | What does it do?
 :---|:---
 [AI/Importing NLTK.ipynb](https://github.com/ka-de/notebooks/blob/main/AI/Importing%20NLTK.ipynb) | **AI** - Importing NLTK
 [AI/List NLTK Tokenizers.ipynb](https://github.com/ka-de/notebooks/blob/main/AI/List%20NLTK%20Tokenizers.ipynb) | **AI** - List NLTK Tokenizers
+[AI/PyTorch Basics.ipynb](https://github.com/ka-de/notebooks/blob/main/AI/PyTorch%20Basics.ipynb) | **AI** - PyTorch Basics
 [Audio/Show Me Your Sound.ipynb](https://github.com/ka-de/notebooks/blob/main/Audio/Show%20Me%20Your%20Sound.ipynb) | **Audio** - Show Me Your Sound 🎵👀
 [Audio/Talking Computer (TTS).ipynb](https://github.com/ka-de/notebooks/blob/main/Audio/Talking%20Computer%20(TTS).ipynb) | **Audio** - Talking Computer (TTS)
 [JavaScript/URL Constructor.ipynb](https://github.com/ka-de/notebooks/blob/main/JavaScript/URL%20Constructor.ipynb) | **JavaScript** - URL Constructors
@@ -35,4 +36,4 @@ Name | What does it do?
 [Python/Basics/Simple To-Do Application.ipynb](https://github.com/ka-de/notebooks/blob/main/Python/Basics/Simple%20To-Do%20Application.ipynb) | **Python\Basics** - Simple To-Do Application 📖⏰
 [Python/Sandbox/Capitalize Titles Sandbox.ipynb](https://github.com/ka-de/notebooks/blob/main/Python/Sandbox/Capitalize%20Titles%20Sandbox.ipynb) | **Python\Sandbox** - Check for Proper US English Title
 [WebDev/TypeScript vs. JSDoc JavaScript for static type checking.ipynb](https://github.com/ka-de/notebooks/blob/main/WebDev/TypeScript%20vs.%20JSDoc%20JavaScript%20for%20static%20type%20checking.ipynb) | **WebDev** - TypeScript vs. JSDoc JavaScript for static type checking
-[🦎 School of Mathematics/Levenshtein distance and FuzzyWuzzy.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20Mathematics/Levenshtein%20distance%20and%20FuzzyWuzzy.ipynb) | **🦎 School of Mathematics** - Levenshtein distance and FuzzyWuzzy
+[🦎 School of Mathematics/Levenshtein distance and TheFuzz.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20Mathematics/Levenshtein%20distance%20and%20TheFuzz.ipynb) | **🦎 School of Mathematics** - Levenshtein distance and TheFuzz
