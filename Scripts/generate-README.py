@@ -60,7 +60,7 @@ for root, dirs, files in os.walk("."):
                 # Create the URL for the notebook
                 notebook_url = f"[{notebook_path}]({github_base_url}{notebook_path.replace(' ', '%20')})"
                 # Create the "What does it do" line
-                what_does_it_do = f"**{subdirectory}** - {title}"
+                what_does_it_do = f"{subdirectory} - **{title}**"
                 line = f"{notebook_url} | {what_does_it_do}"
                 print(f"Adding: {line}")
                 with open(readme_file, "a", encoding="utf-8") as readme:
