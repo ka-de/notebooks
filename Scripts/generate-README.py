@@ -1,6 +1,7 @@
 import os
 import nbformat
 import sys
+import re
 
 sys.stdout.reconfigure(encoding='utf-8')
 
@@ -29,6 +30,8 @@ with open(readme_file, "w", encoding="utf-8") as readme:
 print("README.md created with table header.")
 
 # Function to extract title from a Jupyter notebook
+
+
 def extract_title_from_notebook(notebook_path):
     try:
         with open(notebook_path, "r", encoding="utf-8") as notebook_file:
@@ -44,6 +47,7 @@ def extract_title_from_notebook(notebook_path):
         print(f"Error extracting title from {notebook_path}: {e}")
     return None
 
+
 # Walk through the current directory and its subdirectories
 for root, dirs, files in os.walk("."):
     for file in files:
@@ -57,6 +61,8 @@ for root, dirs, files in os.walk("."):
                 notebook_path = notebook_path.replace("\\", "/")
                 # Remove leading "./" from the notebook path
                 notebook_path = notebook_path.lstrip("./")
+                # Remove "🦎 School of " from the subdirectory using re.sub
+                subdirectory = re.sub(r'^🦎 School of ', '', subdirectory)
                 # Create the URL for the notebook
                 notebook_url = f"[{notebook_path}]({github_base_url}{notebook_path.replace(' ', '%20')})"
                 # Create the "What does it do" line
