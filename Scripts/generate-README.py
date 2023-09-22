@@ -19,8 +19,8 @@ I'm attempting to rectify my failing brain's fatal mistake of learning Python to
 ![Jupiter, in all its glory.](https://github.com/ka-de/notebooks/raw/main/Data/jupiter.jpg)
 Credit: NASA, ESA, CSA, Jupiter ERS Team; image processing by Ricardo Hueso (UPV/EHU) and Judy Schmidt.
 
-School | Name | What does it do?
-:---|:---:|:---
+School | Topic | Link
+:---:|:---:|:---:
 """
 
 # Create a new README.md file with the table header
@@ -67,7 +67,7 @@ for root, dirs, files in os.walk("."):
                 notebook_url = f"[{notebook_path}]({github_base_url}{notebook_path.replace(' ', '%20')})"
                 # Create the "What does it do" line
                 what_does_it_do = f"**{title}**"
-                line = f"{subdirectory} | {notebook_url} | {what_does_it_do}"
+                line = f"{subdirectory} | {what_does_it_do} | {notebook_url}"
                 print(f"Adding: {line}")
                 with open(readme_file, "a", encoding="utf-8") as readme:
                     readme.write(line + "\n")
