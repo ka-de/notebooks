@@ -12,6 +12,7 @@ AI | **Importing NLTK** | [🦎 School of AI/Importing NLTK.ipynb](https://githu
 AI | **List NLTK Tokenizers** | [🦎 School of AI/List NLTK Tokenizers.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20AI/List%20NLTK%20Tokenizers.ipynb)
 AI | **PyTorch Basics** | [🦎 School of AI/PyTorch Basics.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20AI/PyTorch%20Basics.ipynb)
 Biology | **Neotony** | [🦎 School of Biology/Neotony.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20Biology/Neotony.ipynb)
+C# | **Branches** | [🦎 School of C#/Branches.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20C#/Branches.ipynb)
 C# | **Contains** | [🦎 School of C#/Contains.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20C#/Contains.ipynb)
 C# | **Hello World** | [🦎 School of C#/Hello World.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20C#/Hello%20World.ipynb)
 C# | **Integer Math** | [🦎 School of C#/Integer Math.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20C#/Integer%20Math.ipynb)
