@@ -49,32 +49,36 @@ def extract_title_from_notebook(notebook_path):
     return None
 
 
+# Get the current working directory
+current_directory = os.getcwd()
+
 # Walk through the subdirectories (not the root directory)
 for root, dirs, files in os.walk(".", topdown=False):
-    for file in files:
-        if file.endswith(".ipynb"):
-            notebook_path = os.path.join(root, file)
-            title = extract_title_from_notebook(notebook_path)
-            if title:
-                relative_path = os.path.relpath(notebook_path, start=".")
-                subdirectory = os.path.dirname(relative_path)
-                # Normalize the notebook path by replacing backslashes with forward slashes
-                notebook_path = notebook_path.replace("\\", "/")
-                # Remove leading "./" from the notebook path
-                notebook_path = notebook_path.lstrip("./")
-                # Remove "🦎 School of " from the subdirectory using re.sub
-                subdirectory = re.sub(r'^🦎 School of ', '', subdirectory)
-                # Encode the notebook path for the URL
-                encoded_notebook_path = urllib.parse.quote(notebook_path)
-                # Create the URL for the notebook
-                notebook_url = f"[{notebook_path}]({github_base_url}{encoded_notebook_path})"
-                # Create the "What does it do" line
-                what_does_it_do = f"**{title}**"
-                line = f"{subdirectory} | {what_does_it_do} | {notebook_url}"
-                print(f"Adding: {line}")
-                with open(readme_file, "a", encoding="utf-8") as readme:
-                    readme.write(line + "\n")
-            else:
-                print(f"Skipped: {notebook_path}")
+    if root != current_directory:  # Check if the root directory is not the current directory
+        for file in files:
+            if file.endswith(".ipynb"):
+                notebook_path = os.path.join(root, file)
+                title = extract_title_from_notebook(notebook_path)
+                if title:
+                    relative_path = os.path.relpath(notebook_path, start=".")
+                    subdirectory = os.path.dirname(relative_path)
+                    # Normalize the notebook path by replacing backslashes with forward slashes
+                    notebook_path = notebook_path.replace("\\", "/")
+                    # Remove leading "./" from the notebook path
+                    notebook_path = notebook_path.lstrip("./")
+                    # Remove "🦎 School of " from the subdirectory using re.sub
+                    subdirectory = re.sub(r'^🦎 School of ', '', subdirectory)
+                    # Encode the notebook path for the URL
+                    encoded_notebook_path = urllib.parse.quote(notebook_path)
+                    # Create the URL for the notebook
+                    notebook_url = f"[{notebook_path}]({github_base_url}{encoded_notebook_path})"
+                    # Create the "What does it do" line
+                    what_does_it_do = f"**{title}**"
+                    line = f"{subdirectory} | {what_does_it_do} | {notebook_url}"
+                    print(f"Adding: {line}")
+                    with open(readme_file, "a", encoding="utf-8") as readme:
+                        readme.write(line + "\n")
+                else:
+                    print(f"Skipped: {notebook_path}")
 
 print("Table of Contents updated in README.md.")
