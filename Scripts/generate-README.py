@@ -2,6 +2,7 @@ import os
 import nbformat
 import sys
 import re
+import urllib.parse
 
 sys.stdout.reconfigure(encoding='utf-8')
 
@@ -63,8 +64,10 @@ for root, dirs, files in os.walk("."):
                 notebook_path = notebook_path.lstrip("./")
                 # Remove "🦎 School of " from the subdirectory using re.sub
                 subdirectory = re.sub(r'^🦎 School of ', '', subdirectory)
+                # Encode the notebook path for the URL
+                encoded_notebook_path = urllib.parse.quote(notebook_path)
                 # Create the URL for the notebook
-                notebook_url = f"[{notebook_path}]({github_base_url}{notebook_path.replace(' ', '%20')})"
+                notebook_url = f"[{notebook_path}]({github_base_url}{encoded_notebook_path})"
                 # Create the "What does it do" line
                 what_does_it_do = f"**{title}**"
                 line = f"{subdirectory} | {what_does_it_do} | {notebook_url}"
