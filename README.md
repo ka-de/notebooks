@@ -7,19 +7,22 @@ Credit: NASA, ESA, CSA, Jupiter ERS Team; image processing by Ricardo Hueso (UPV
 
 School | Topic | Link
 :---:|:---:|:---:
- | **Polyglot Notebook Tools** | [Activate Polyglot.ipynb](https://github.com/ka-de/notebooks/blob/main/Activate%20Polyglot.ipynb)
+ | **Polyglot Notebook Tools** | [Activate Polyglot2.ipynb](https://github.com/ka-de/notebooks/blob/main/Activate%20Polyglot2.ipynb)
 AI | **Importing NLTK** | [🦎 School of AI/Importing NLTK.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20AI/Importing%20NLTK.ipynb)
 AI | **List NLTK Tokenizers** | [🦎 School of AI/List NLTK Tokenizers.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20AI/List%20NLTK%20Tokenizers.ipynb)
 AI | **PyTorch Basics** | [🦎 School of AI/PyTorch Basics.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20AI/PyTorch%20Basics.ipynb)
 Biology | **Neotony** | [🦎 School of Biology/Neotony.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20Biology/Neotony.ipynb)
+C# | **Branch Challenge** | [🦎 School of C#/Branch Challenge.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20C#/Branch%20Challenge.ipynb)
 C# | **Branches** | [🦎 School of C#/Branches.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20C#/Branches.ipynb)
 C# | **Contains** | [🦎 School of C#/Contains.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20C#/Contains.ipynb)
 C# | **Hello World** | [🦎 School of C#/Hello World.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20C#/Hello%20World.ipynb)
 C# | **Integer Math** | [🦎 School of C#/Integer Math.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20C#/Integer%20Math.ipynb)
 C# | **Integer Precision and Remainder Operator** | [🦎 School of C#/Integer Precision and Remainder Operator.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20C#/Integer%20Precision%20and%20Remainder%20Operator.ipynb)
+C# | **Loops** | [🦎 School of C#/Loops.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20C#/Loops.ipynb)
 C# | **Numbers and Decimals** | [🦎 School of C#/Numbers and Decimals.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20C#/Numbers%20and%20Decimals.ipynb)
 C# | **Projectile Motion** | [🦎 School of C#/Projectile Motion.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20C#/Projectile%20Motion.ipynb)
 C# | **Strings** | [🦎 School of C#/Strings.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20C#/Strings.ipynb)
+German | **Introduce Yourself, Countries, and Occupations** | [🦎 School of German/Introduce Yourself, Countries, and Occupations.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20German/Introduce%20Yourself,%20Countries,%20and%20Occupations.ipynb)
 JavaScript | **URL Constructors** | [🦎 School of JavaScript/URL Constructor.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20JavaScript/URL%20Constructor.ipynb)
 Mathematics | **Brownian interval** | [🦎 School of Mathematics/Brownian interval.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20Mathematics/Brownian%20interval.ipynb)
 Mathematics | **Levenshtein distance and TheFuzz** | [🦎 School of Mathematics/Levenshtein distance and TheFuzz.ipynb](https://github.com/ka-de/notebooks/blob/main/🦎%20School%20of%20Mathematics/Levenshtein%20distance%20and%20TheFuzz.ipynb)
