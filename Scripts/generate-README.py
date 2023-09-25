@@ -49,8 +49,8 @@ def extract_title_from_notebook(notebook_path):
     return None
 
 
-# Walk through the current directory and its subdirectories
-for root, dirs, files in os.walk("."):
+# Walk through the subdirectories (not the root directory)
+for root, dirs, files in os.walk(".", topdown=False):
     for file in files:
         if file.endswith(".ipynb"):
             notebook_path = os.path.join(root, file)
