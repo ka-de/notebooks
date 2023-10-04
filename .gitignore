@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Ignore the notebooks in the root folder, they contain pornographic material!
 /*.ipynb
 
 # C extensions
